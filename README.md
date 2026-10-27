@@ -35,6 +35,19 @@ My current focus includes:
 
 ## 🔧 Projects
 
+### PHP Patch Updater
+
+A released server-local PHP maintenance tool using a **Python launcher and Bash backends**. The launcher detects the hosting panel, downloads backends from a pinned commit, verifies SHA-256 checksums, and runs planning or supervised patch updates.
+
+- Covers documented aaPanel, CyberPanel, Hestia, cPanel, and conventional APT/DNF environments.
+- Launcher planning validated across **seven environments**.
+- Actual backend package upgrades validated in **four VM scenarios**, with configuration preservation, module comparisons, and applicable service checks.
+- Retains maintenance logs and configuration backups while cleaning up downloaded backends.
+
+**Status:** Released — v1.0.1. Tested scope and known limitations are documented.
+
+[Repository](https://github.com/vsm524565/php-patch-updater) · [Release v1.0.1](https://github.com/vsm524565/php-patch-updater/releases/tag/v1.0.1)
+
 ### InfraGuard
 
 A modular infrastructure monitoring and reliability project I'm developing to explore practical server monitoring, health checks, incident detection, automation, and reliability engineering.
